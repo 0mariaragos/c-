@@ -18,6 +18,7 @@ namespace programa1
             idade = int.Parse(Console.ReadLine());
             Console.Write("Digite o nome do seu animal de estimação: ");
             pet = Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
